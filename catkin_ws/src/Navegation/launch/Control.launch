@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<launch>
+    <node pkg="Navegation" type="position.py" name="botPosition"/>
+    <node pkg="Navegation" type="control.py" name="robot_control"/>
+</launch>
